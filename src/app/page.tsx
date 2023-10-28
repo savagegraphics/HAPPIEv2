@@ -6,8 +6,6 @@ import React from 'react'
 // import Division from '@/components/DiviGrid/Division'
 import Sidebar from '../components/Sidebar'
 
-type Props = {}
-
 const page = () => {
   return (
     <div className='bg-[#f6f6f6]'>

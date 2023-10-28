@@ -1,10 +1,10 @@
 'use client'
 
-import Header from '@/components/Heada'
+// import Header from '@/components/Heada'
 import React from 'react'
-import Grid from '@/components/Grid'
-import Division from '@/components/DiviGrid/Division'
-import Sidebar from '@/components/Sidebar'
+// import Grid from '@/components/Grid'
+// import Division from '@/components/DiviGrid/Division'
+import Sidebar from '../components/Sidebar'
 
 type Props = {}
 

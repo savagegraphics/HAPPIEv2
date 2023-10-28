@@ -17,7 +17,6 @@ import {
   Modal,
   Navbar,
   Pagination,
-  Progress,
   Rating,
   Sidebar as FlowbiteSidebar,
   Spinner,
@@ -264,7 +263,6 @@ function HomePage (): JSX.Element {
             Progress
           </h2>
         </header>
-        <ProgressExample />
       </section>
       <section>
         <header>
@@ -821,18 +819,6 @@ function PaginationExample (): JSX.Element {
     </div>
   )
 }
-
-function ProgressExample (): JSX.Element {
-  return (
-    <Progress
-      progress={45}
-      label='Flowbite'
-      labelPosition='outside'
-      labelProgress
-    />
-  )
-}
-
 function RatingExample (): JSX.Element {
   return (
     <div className='flex flex-col justify-center gap-4'>

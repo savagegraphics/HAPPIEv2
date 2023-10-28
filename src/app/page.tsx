@@ -56,8 +56,7 @@ import {
   HiTable,
   HiUser,
   HiUserCircle,
-  HiViewBoards,
-  HiX
+  HiViewBoards
 } from 'react-icons/hi'
 import Header from '../components/Props'
 import Sidebar from '../components/DiviGrid/Sidebar'

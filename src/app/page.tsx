@@ -8,7 +8,7 @@ import Sidebar from '../components/Sidebar'
 
 type Props = {}
 
-const page = (props: Props) => {
+const page = () => {
   return (
     <div className='bg-[#f6f6f6]'>
       <Sidebar />

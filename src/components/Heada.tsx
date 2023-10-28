@@ -2,9 +2,7 @@
 
 import React, { useState } from 'react'
 
-type Props = {}
-
-const Header = (props: Props) => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const toggleMenu = () => {

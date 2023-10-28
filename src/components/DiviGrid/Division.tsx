@@ -1,9 +1,7 @@
 import React from 'react'
 import BiggerGrid from './BiggerGrid'
 
-type Props = {}
-
-const Grid = (props: Props) => {
+const Grid = () => {
   return (
     <div className='lg:flex lg:-mx-6'>
       <div className='lg:w-4/6 lg:px-6'>

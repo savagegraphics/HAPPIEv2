@@ -1,8 +1,7 @@
 import React from 'react'
 
-type Props = {}
 
-const Cards = (props: Props) => {
+const Cards = () => {
   return (
     <div className='grid grid-cols-1 gap-5 mt-5 md:grid-cols-4 mx-6 md:mx-12'>
       <div className='overflow-hidden bg-white rounded-lg shadow'>
